@@ -1,3 +1,5 @@
+![visualizaciónn](https://github.com/fbiasuso/ejercicios-js/blob/main/73.jpg?raw=true)
+
 # Ejercicios de JavaScript
 
 27 Ejericios para practicar lógica con javascript.
@@ -10,10 +12,5 @@ Cada ejercicio debe estar  de forma individual en su propio archivo .js y en su 
 
 No hay obligación de seguir esta convención pero se recomienda que en cada carpeta de ejercicio, además del archivo .js obligatorio con la lógica, haya un index.html con las consignas del problema vinculado al archivo .js, de modo tal que facilite la visualización. En dicho archivo tambien se pueden agregar comentarios, proceso de pensamiento y estilos a gustos.
 
-
-
-<span>![</span><span>Aquí la descripción de la imagen por si no carga</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png</span><span>)</span>
-
 ![visualizaciónn](https://github.com/fbiasuso/ejercicios-js/blob/main/visualizacion.jpg?raw=true)
 
-![visualizaciónn](https://raw.githubusercontent.com/fbiasuso/ejercicios-js/main/visualizacion.jpg?raw=true)
