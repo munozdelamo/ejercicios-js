@@ -16,8 +16,6 @@ const numeros = []
 
 for (let index = 0; index < cantidad; index++) {
    
-    /* numeroNuevo = Math.floor(Math.random()*maximo);
-    (maximo - numeroNuevo > 5 ) && numeros.push(numeroNuevo); */
     let aleatorio = Math.floor(Math.random()*maximo);
      numeros.push(aleatorio);
     
@@ -29,13 +27,5 @@ for (let index = 0; index < numeros.length; index++) {
      : (numeros[index] % 2 == 1) && console.log("El Número: ",numeros[index]," es IMPAR.")
     
 }
-
-
-{/* <p> Se le solicita al usuario que ingrese los extremos de un rango numérico y una cantidad de valores desconocidos</p>
-    <p> Realice un programa para informar si cada número está dentro del rango.</p>
-    <p> Si está en rango, informar si el número es par.</p>
-    <p> Si no está dentro del rango, informar si es número es impar.</p>
-    <p> Tenga en cuenta que el rango debe tener una diferencia mínima de 5 números enteros</p>
- */}
 
 
