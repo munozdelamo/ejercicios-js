@@ -34,7 +34,7 @@ const informe = (muestra) => {
 	console.log(" a. El procentaje de mujeres mayores a 25 años es : ", porcentajeMujeresMayores25,"%" );
 		
 	const promedioEdadMujeres = promedio(muestra,"Edad","M");
-	console.log(" b. El El promedio de edad de las mujeres es: ", promedioEdadMujeres);
+	console.log(" b. El promedio de edad de las mujeres es: ", promedioEdadMujeres);
 	
 	const promedioAlturaMujeres = promedio(muestra,"Altura","M");
 	console.log(" c. El promedio de altura de las mujeres es: ", promedioAlturaMujeres);
@@ -135,4 +135,5 @@ const comprobarMayusculasOperadores = (mayorOMenor)=>{
 
 
 console.log('%c Ejercicio 27:', 'background: #000; color: #fff')
+console.log('Los datos de la Encuesta son: ',muestra)
 informe(muestra);
