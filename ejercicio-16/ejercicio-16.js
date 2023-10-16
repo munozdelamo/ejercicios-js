@@ -10,7 +10,8 @@ console.log('%c Ejercicio 16:', 'background: #000; color: #fff');
  
  const multiplos = (num1)=>{
      
-     esUnNumero(num1)
+     if(!esUnNumero(num1))
+     {return}
      esMultiplo(num1) 
      
  }
@@ -19,8 +20,10 @@ const esUnNumero = (numero)=>{
      
      if (typeof(numero) !== "number" || Number.isNaN(numero) || numero === null ) { 
         alert("El dato ingresado no es un número válido"); 
-        return confirm("¿Desea realizar otra operación?");
+        return false
     }
+
+    return true
 }
 
 const esMultiplo = (numero)=>{
