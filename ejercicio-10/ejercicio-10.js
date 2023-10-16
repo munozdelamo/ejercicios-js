@@ -11,7 +11,7 @@ const perimetroYArea = ()=>{
 	const diametro = Number(prompt("Escriba el diámetro del círculo: "))
 	if(!validarNumero(diametro)){
 		console.log("Imposible calcular el perimetro y el área del círculo sin el diámetro.")
-		return false
+		return
 	}
 	console.log('El diámetro del círculo es : ',diametro)
 	
