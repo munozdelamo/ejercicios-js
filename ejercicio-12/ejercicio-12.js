@@ -4,11 +4,11 @@
     programa para calcular e informar el sueldo mensual del empleado.
 */
 
-console.log('%c Ejercicio 13:', 'background: #000; color: #fff')
+console.log('%c Ejercicio 12:', 'background: #000; color: #fff')
 
 const calcularSueldoTotal = ()=>{
 			
-	const valorHora = Number(prompt("Escriba el el Valor de la Hora en dolares: "))
+	const valorHora = Number(prompt("Escriba el Valor de la Hora en dolares: "))
 	if(!validarNumero(valorHora) || valorHora == 0){
 		console.log("Imposible calcular el sueldo total sin el Valor de la Hora.")
 		return
@@ -16,7 +16,7 @@ const calcularSueldoTotal = ()=>{
 	console.log('El Valor de la Hora es : u$s',valorHora)
 
 	const horasPorMes = Number(prompt("Escriba la cantidad de Horas Trabajadas en el Mes: "))
-	if(!validarNumero(horasPorMes || horasPorMes == 0)){
+	if(!validarNumero(horasPorMes) || horasPorMes == 0){
 		console.log("Imposible calcular el sueldo total sin la cantidad de Horas Trabajadas en el Mes.")
 		return
 	}
