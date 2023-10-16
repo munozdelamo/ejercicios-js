@@ -5,7 +5,7 @@
 
 console.log('%c Ejercicio 11:', 'background: #000; color: #fff')
 
-const calcularSueldoTotal = ()=>{
+const calcularSumaYPromedio = ()=>{
 			
 	const num1 = obtenerNumero(1);
 	if(!num1 && num1!==0){
@@ -65,4 +65,4 @@ const obtenerNumero=(posicion)=>{
 
 
 
-calcularSueldoTotal();
+calcularSumaYPromedio();

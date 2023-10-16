@@ -6,14 +6,14 @@
 
 console.log('%c Ejercicio 10:', 'background: #000; color: #fff')
 
-const calcularSueldoTotal = ()=>{
+const perimetroYArea = ()=>{
 			
 	const diametro = Number(prompt("Escriba el diámetro del círculo: "))
 	if(!validarNumero(diametro)){
 		console.log("Imposible calcular el perimetro y el área del círculo sin el diámetro.")
 		return false
 	}
-	console.log('El diámtro del círculo es : ',diametro)
+	console.log('El diámetro del círculo es : ',diametro)
 	
 	const perímetro = 3.1416 * diametro;
 	const radio = diametro / 2;
@@ -35,4 +35,4 @@ const validarNumero = (numero)=>{
 	return	true
 }
 
-calcularSueldoTotal();
+perimetroYArea();
