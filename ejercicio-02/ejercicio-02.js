@@ -4,7 +4,7 @@
 
 console.log('%c Ejercicio 02:', 'background: #000; color: #fff')
 
-const perimetroYAreaCuadrado = (nota1,nota2,nota3)=>{
+const promedio3Notas = (nota1,nota2,nota3)=>{
 			
 	nota1 = Number(nota1)
 	if(!validarNumero(nota1)){
@@ -47,4 +47,4 @@ const validarNumero = (numero)=>{
 	return	true
 }
 
-perimetroYAreaCuadrado(7,10,2);
+promedio3Notas(7,10,2);
