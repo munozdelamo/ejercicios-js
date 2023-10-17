@@ -4,7 +4,7 @@
 
 console.log('%c Ejercicio 03:', 'background: #000; color: #fff')
 
-const perimetroYAreaCuadrado = (ladoA,ladoB,base,altura)=>{
+const perimetroTriangulo = (ladoA,ladoB,ladoC)=>{
 			
 	ladoA = Number(ladoA)
 	if(!validarNumero(ladoA)){
@@ -20,24 +20,16 @@ const perimetroYAreaCuadrado = (ladoA,ladoB,base,altura)=>{
 	}
 	console.log('El lado B del triángulo mide : ',ladoB)
 
-	base = Number(base)
-	if(!validarNumero(base)){
-		console.log("Imposible calcular el perimetro y el área del triángulo sin la base.")
+	ladoC = Number(ladoC)
+	if(!validarNumero(ladoC)){
+		console.log("Imposible calcular el perimetro y el área del triángulo sin el lado C.")
 		return
 	}
-	console.log('La Base del triángulo mide : ',base)
+	console.log('El lado C del triángulo mide : ',ladoC)
 
-	altura = Number(altura)
-	if(!validarNumero(altura)){
-		console.log("Imposible calcular el perimetro y el área del triángulo sin la altura.")
-		return
-	}
-	console.log('La Altura del triángulo es : ',altura)
-
-	const perímetro = ladoA + ladoB + base;
+	const perímetro = ladoA + ladoB + ladoC;
 	console.log("El perimetro del triángulo es: ",perímetro)
-	const area = (base * altura) / 2;
-	console.log("El Área del triángulo es: ",area)
+	
 }
 
 
@@ -53,4 +45,4 @@ const validarNumero = (numero)=>{
 	return	true
 }
 
-perimetroYAreaCuadrado(15,10,45,12);
+perimetroTriangulo(15,10,45);
