@@ -11,6 +11,8 @@ const nombreCompleto = (nombre, apellido)=>{
 		return 
 	}
 	
+
+	
 	if(!validarCadena(apellido)){
 		console.log("Imposible mostrar el mensaje de Bienvenida sin un Apellido.")
 		return 
